@@ -3,6 +3,8 @@ permalink: /portfolio/
 title: "Portfolio"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+### Robotics Projects
+---
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+#### MIE443: Mechatronics Systems: Design and Integration
+A series of contests where our team programmed the TurtleBot robot using C++ and the ROS environment to perform autonomous mapping and localization, object identification via computer vision, and robot-human interaction for MIE443: Mechatronics Systems: Design and Integration at UofT (Winter, 2017).
