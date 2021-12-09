@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "Allistair Cota"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/profile_pic_01.jpg"
   bio    : "I am a Data Science Diploma candidate at BrainStation with a background in mechanical engineering."
   links:
     - label: "LinkedIn"
