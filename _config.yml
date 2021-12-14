@@ -62,8 +62,7 @@ author:
   bio    : "I am a Data Science Diploma candidate at BrainStation with a background in mechanical engineering."
   links:
     - label: "Greater Toronto Area, Ontario, Canada"
-      icon: "fas fa-map-marker-alt"
-      url: 
+      icon: "fas fa-fw fa-map-marker-alt"
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:allistair.cota@gmail.com"
