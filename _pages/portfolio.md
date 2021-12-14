@@ -3,6 +3,8 @@ permalink: /portfolio/
 title: "Portfolio"
 ---
 
+*Last updated: December 14, 2021*
+
 ## Data Science Projects
 
 ### Rate My Restaurant - BrainStation Data Science Bootcamp Capstone Project
