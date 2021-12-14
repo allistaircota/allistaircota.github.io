@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Allistair Cota"
   avatar : "https://github.com/allistaircota.png"   #"/assets/images/profile_pic_01.jpg"
-  bio    : "I am a Data Science Diploma candidate at BrainStation with a background in mechanical engineering."
+  bio    : "Data Scientist with background in Mechanical Engineering"
   location : "Greater Toronto Area, ON, Canada"
   links:
     # - label: "Greater Toronto Area, ON"
