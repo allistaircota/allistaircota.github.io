@@ -63,7 +63,6 @@ author:
   links:
     - label: "Greater Toronto Area, ON"
       icon: "fas fa-fw fa-map-marker-alt"
-      url: ""
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:allistair.cota@gmail.com"
