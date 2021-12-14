@@ -7,7 +7,7 @@ title: "Portfolio"
 ---
 
 ## Rate My Restaurant - BrainStation Data Science Bootcamp Capstone Project
-
+A series of Jupyter notebooks where I predict the rating of a restaurant review given its business atrributes and review text. This would help aspiring restaurant owners understand the characteristics required to achieve a good restaurant rating. The text vectorizers that I evaluated included Bag-of-Words and TF-IDF, and the machine learning models included Linear, Ridge, Lasso, Decision Tree and XGBoost Regression. The pipeline with tuned model hyperparameters producing the lowest mean absolute error was selected using GridSearchCV. This project served as my capstone for the Data Science Bootcamp at BrainStation (September 2021 cohort).
 
 
 # Robotics Projects
