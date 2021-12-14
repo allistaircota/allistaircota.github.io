@@ -61,6 +61,9 @@ author:
   avatar : "https://github.com/allistaircota.png"   #"/assets/images/profile_pic_01.jpg"
   bio    : "I am a Data Science Diploma candidate at BrainStation with a background in mechanical engineering."
   links:
+    - label: "Email"
+      icon: "fab fa-fw fa-email"
+      url: "mailto:allistair.cota@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://ca.linkedin.com/in/allistaircota"
@@ -70,6 +73,9 @@ author:
 
 footer:
   links:
+    - label: "Email"
+      icon: "fab fa-fw fa-email"
+      url: "mailto:allistair.cota@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://ca.linkedin.com/in/allistaircota"
