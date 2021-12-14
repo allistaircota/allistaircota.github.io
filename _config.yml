@@ -60,9 +60,10 @@ author:
   name   : "Allistair Cota"
   avatar : "https://github.com/allistaircota.png"   #"/assets/images/profile_pic_01.jpg"
   bio    : "I am a Data Science Diploma candidate at BrainStation with a background in mechanical engineering."
+  location : "Greater Toronto Area, ON, Canada"
   links:
-    - label: "Greater Toronto Area, ON"
-      icon: "fas fa-fw fa-map-marker-alt"
+    # - label: "Greater Toronto Area, ON"
+    #   icon: "fas fa-fw fa-map-marker-alt"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:allistair.cota@gmail.com"
