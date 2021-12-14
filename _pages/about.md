@@ -7,4 +7,4 @@ My name is Allistair Cota. I am a Mechanical Engineer turned Data Scientist, hav
 
 I am proficient in Python, R, and MATLAB programming languages, data processing with SQL, data visualization with Tableau, Matplotlib, Seaborn, and Plotly Express. I am well-versed with Scikit-Learn, Keras, TensorFlow and PyTorch, and machine learning models. I am also familiar with big data tools such as Hadoop, Spark, Hive, and working within the AWS environment. I am currently seeking employment as a Data Scientist.
 
-[View My Portfolio](portfolio){: .btn .btn--info}
+[View My Portfolio](../portfolio){: .btn .btn--info}
