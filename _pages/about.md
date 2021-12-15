@@ -1,7 +1,6 @@
 ---
 permalink: /
-redirect_from:
-  - /about
+redirect_from: /about/
 title: "About"
 ---
 
