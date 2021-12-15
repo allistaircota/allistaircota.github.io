@@ -1,6 +1,8 @@
 ---
 permalink: /
 redirect_from: /about/
+layout: single
+classes: wide
 title: "About"
 ---
 
