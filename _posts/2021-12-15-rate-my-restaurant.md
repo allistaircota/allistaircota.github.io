@@ -16,7 +16,7 @@ The goal of this project is to help aspiring restaurant owners understand the ra
 The restaurant industry in the United States generated $833.1 billion in revenue in 2018 and was projected to reach $863 billion in 2019 [1]. Restaurants reviews and ratings on popular review websites are important factors in attracting new customers. Yelp is one of the most popular review websites, including over 135 million restaurant and business reviews and over 90 million users visiting the website per month. A study found that a one star increase in a Yelp rating leads to a 5% - 9% increase in revenue for a restaurant [2]. This underlines the financial importance of Yelp ratings on restaurants.
 
 ## Data Source
-The data for this project was acquired from the Yelp Open Dataset [3], which is published by Yelp both on its website and on Kaggle for educational and non-commercial purposes. The entire dataset is around 11 GB in size, consisting of separate JSON files containing data on a subset of Yelp's businesses, reviews, user, check-ins, and tips respectively. The dataset is updated by Yelp periodically, and I downloaded the most recent version of this dataset as of October 2021, which at the time was denoted as Version 3. This version contains review data dating back from 2004 to early 2021. For this project, I have focused on restaurants in the state of Massachusetts which was the most represented state in the business dataset. For context, nearly 10% of the Massachusetts’ entire workforce worked in the restaurant industry in 2019 [4], making it a vital sector in the state’s economy, and thus showcasing the importance of this project’s goal for restaurants located in this state.
+The data for this project was acquired from the Yelp Open Dataset [3], which is published by Yelp both on its website and on Kaggle for educational and non-commercial purposes. The entire dataset is around 11 GB in size, consisting of separate JSON files containing data on a subset of Yelp's businesses, reviews, user, check-ins, and tips respectively. The dataset is updated by Yelp periodically, and I downloaded the most recent version of this dataset as of October 2021, which at the time was denoted as Version 3. This version contains review data dating back from 2004 to early 2021. For this project, I have only worked with the business and review JSON datasets, focusing on restaurants in the state of Massachusetts which was the most represented state in the business dataset. For context, nearly 10% of the Massachusetts’ entire workforce worked in the restaurant industry in 2019 [4], making it a vital sector in the state’s economy, and thus showcasing the importance of this project’s goal for restaurants located in this state.
 
 ## Data Processing
 An exhaustive preprocessing of the business dataset was performed, as the business attribute column values were stored as JSON objects. Hence every unique key among the attribute JSON objects was mapped as a separate feature in the data frame, in order to prepare the dataset for modelling. Some of these attributes included price range, availability of outdoor seating, and serving of alcohol. Columns with excessive missing values were dropped, and the remaining business attribute columns had their missing values imputed with the mode value, given the categorical nature of those columns. Furthermore, the 20 most frequent restaurant categories were also extracted and used as separate binarized features.
@@ -25,6 +25,9 @@ An exhaustive preprocessing of the business dataset was performed, as the busine
 Figure 1 shows the distribution of the dependent variable, which is the rating of a restaurant
 defined as the number of stars assigned by the reviewer. 64% of the reviews have a rating of
 greater than or equal to 4 stars, while 36% of the reviews have a rating of less than 4 stars.
+
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/star-rating.png)
+*Figure 1: Distribution of restaurant review ratings*
 
 There were no obvious trends observed when plotting the distribution of ratings with each of
 the numeric variables from the business dataset alone, hence feature engineering was also
@@ -35,13 +38,16 @@ reviews per restaurant, and number of branches for chain restaurants.
 The NLP encoders that were explored included a Bag of Words (BoW) and TF-IDF vectorizer.
 For each vectorizer, the effect of stemming versus lemmatization was also evaluated. To keep
 memory size and run times manageable, each vectorizer was limited to encoding both
-unigram and bigram tokens, limiting the total number of tokens to 3,000.
-The candidate machine learning models that were evaluated included Linear Regression,
-Decision Tree Regression and XGBoost Regression. Grid search cross validation was used to
-select the best text vectorizer and model hyperparameter combination for each of the
+unigram and bigram tokens, limiting the total number of tokens to 3,000. The candidate machine learning models that were evaluated included Linear Regression, Decision Tree Regression and XGBoost Regression. Grid search cross validation was used to select the best text vectorizer and model hyperparameter combination for each of the
 candidate models. The selection metric used was mean absolute error, but R2 values were
 also monitored. Table 1 shows the test set accuracy results for the various pipelines that were
 selected.
+
+| Model                   | Vectorizer           | Mean Absolute Error (Stars)| R^{2} |
+| :---------------------: |:--------------------:| :-------------------------:| :---: |
+| Ridge Regression        | TF-IDF with Stemming | 0.65                       | 0.62  |
+| XGBoost Regressor       | TF-IDF with Stemming | 0.66                       | 0.60  |
+| Decision Tree Regressor | TF-IDF with Stemming | 0.90                       | 0.21  |
 
 As indicated by Table 1, the best performing pipeline comprised of a TF-IDF vectorizer with
 stemming, and a Linear Regression model with L2 regularization. This pipeline produced a
@@ -83,8 +89,7 @@ be retrained on a bigger subset of restaurants given more time and computing pow
 ## References
 
 [1] R. Ruggless, "U.S. restaurant sales to reach record $863B in 2019, NRA says," Nation's
-Restaurant News, 5 April 2019. [Online]. Available: https://www.nrn.com/sales-trends/usrestaurant-
-sales-reach-record-863b-2019-nra-says.
+Restaurant News, 5 April 2019. [Online]. Available: https://www.nrn.com/sales-trends/us-restaurant-sales-reach-record-863b-2019-nra-says.
 
 [2] M. Luca, "Reviews, Reputation, and Revenue: The Case of Yelp.Com," Harvard Business
 School NOM Unit Working Paper No. 12-016, vol. 12, no. 06, 2016.
@@ -94,5 +99,4 @@ School NOM Unit Working Paper No. 12-016, vol. 12, no. 06, 2016.
 
 [4] R. Luz, "Massachusetts' strong restaurant industry depends on diners (Outlook 2019
 Viewpoint)," MassLive, 17 February 2019. [Online]. Available:
-https://www.masslive.com/businessnews/
-2019/02/massachusetts_strong_restaurant_industry.html.
+https://www.masslive.com/business-news/2019/02/massachusetts_strong_restaurant_industry.html.
