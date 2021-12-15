@@ -1,7 +1,6 @@
 ---
 permalink: /portfolio/
 title: "Portfolio"
-classes: wide
 toc: true
 toc_label: "Table of Contents"
 ---

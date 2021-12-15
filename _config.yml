@@ -58,8 +58,8 @@ plugins:
 author:
   name   : "Allistair Cota"
   avatar : "https://github.com/allistaircota.png"   #"/assets/images/profile_pic_01.jpg"
-  bio    : "Data Scientist with background in Mechanical Engineering"
-  location : "Greater Toronto Area, ON, Canada"
+  bio    : "Data Scientist with a background in Mechanical Engineering"
+  location : "Greater Toronto Area, Canada"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
