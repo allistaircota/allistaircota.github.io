@@ -1,7 +1,5 @@
 ---
 title: "Rate My Restaurant: Predicting Restaurant Ratings"
-layout: single
-classes: wide
 categories:
   - Blog
 tags:
