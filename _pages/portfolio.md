@@ -13,7 +13,7 @@ toc_label: "Table of Contents"
 ### Rate My Restaurant
 ***BrainStation Data Science Bootcamp Capstone Project***
 
-[![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/allistaircota/rate_my_restaurant)
+[![](https://img.shields.io/badge/Blog-Read%20Article-blue?logo=blogger)](../_posts/rate-my-restaurant/) [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/allistaircota/rate_my_restaurant)
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/rate-my-restaurant-image.jpg)
 
