@@ -66,7 +66,7 @@ of the variance in the ratings.
 ## Findings
 Figure 2 displays the top 20 positive and negative tokens based on coefficient values.
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/token.png =x250)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/token.png)
 *Figure 2: Top 20 Positive and Negative Tokens by Regression Coefficient Value*
 
 To summarize, the key findings of the study are as follows:
