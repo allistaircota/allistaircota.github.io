@@ -1,6 +1,10 @@
 ---
 permalink: /portfolio/
 title: "Portfolio"
+
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 ---
 
 *Last updated: December 14, 2021*
