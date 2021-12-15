@@ -7,7 +7,13 @@ tags:
   - nlp
   - regression
   - capstone
+  - reviews
+  - restaurants
 ---
+
+[![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/allistaircota/rate_my_restaurant)
+
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/rate-my-restaurant-image.jpg)
 
 ## Problem Statement
 The goal of this project is to help aspiring restaurant owners understand the ratings their planned restaurant might get on a review website, given the amenities they plan to include, and feedback received from soft openings. By using a combination of numerical, categorical, and text data, we utilize Natural Language Processing (NLP) and machine learning techniques to build a regression model that can predict the rating of a restaurant assigned by a customer. This will give restauranteurs an advanced awareness of customers’ sentiment towards the restaurants, allowing them to make any changes prior to opening to avoid receiving low ratings once in operation.
@@ -48,7 +54,14 @@ selected.
 | Ridge Regression        | TF-IDF with Stemming | 0.65                       | 0.62          |
 | XGBoost Regressor       | TF-IDF with Stemming | 0.66                       | 0.60          |
 | Decision Tree Regressor | TF-IDF with Stemming | 0.90                       | 0.21          |
+
 *Table 1: Regression model scores on the test set. Vectorizer and hyperparameters were selected via grid search cross validation.*
+
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
 
 As indicated by Table 1, the best performing pipeline comprised of a TF-IDF vectorizer with
 stemming, and a Ridge Regression model. This pipeline produced a
@@ -90,14 +103,14 @@ be retrained on a bigger subset of restaurants given more time and computing pow
 ## References
 
 [1] R. Ruggless, "U.S. restaurant sales to reach record $863B in 2019, NRA says," Nation's
-Restaurant News, 5 April 2019. [Online]. Available: https://www.nrn.com/sales-trends/us-restaurant-sales-reach-record-863b-2019-nra-says.
+Restaurant News, 5 April 2019. [Online]. Available: [https://www.nrn.com/sales-trends/us-restaurant-sales-reach-record-863b-2019-nra-says](https://www.nrn.com/sales-trends/us-restaurant-sales-reach-record-863b-2019-nra-says).
 
 [2] M. Luca, "Reviews, Reputation, and Revenue: The Case of Yelp.Com," Harvard Business
 School NOM Unit Working Paper No. 12-016, vol. 12, no. 06, 2016.
 
-[3] Yelp Inc., "Yelp Open Dataset," n.d.. [Online]. Available: https://www.yelp.com/dataset.
+[3] Yelp Inc., "Yelp Open Dataset," n.d.. [Online]. Available: [https://www.yelp.com/dataset)](https://www.yelp.com/dataset).
 [Accessed 21 October 2021].
 
 [4] R. Luz, "Massachusetts' strong restaurant industry depends on diners (Outlook 2019
 Viewpoint)," MassLive, 17 February 2019. [Online]. Available:
-https://www.masslive.com/business-news/2019/02/massachusetts_strong_restaurant_industry.html.
+[https://www.masslive.com/business-news/2019/02/massachusetts_strong_restaurant_industry.html](https://www.masslive.com/business-news/2019/02/massachusetts_strong_restaurant_industry.html).
