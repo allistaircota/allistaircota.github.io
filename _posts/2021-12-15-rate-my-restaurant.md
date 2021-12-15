@@ -57,11 +57,6 @@ selected.
 
 *Table 1: Regression model scores on the test set. Vectorizer and hyperparameters were selected via grid search cross validation.*
 
-| Priority apples | Second priority | Third priority |
-|-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
 
 As indicated by Table 1, the best performing pipeline comprised of a TF-IDF vectorizer with
 stemming, and a Ridge Regression model. This pipeline produced a
@@ -70,6 +65,9 @@ of the variance in the ratings.
 
 ## Findings
 Figure 2 displays the top 20 positive and negative tokens based on coefficient values.
+
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/token.png)
+*Figure 2: Top 20 Positive and Negative Tokens by Regression Coefficient Value*
 
 To summarize, the key findings of the study are as follows:
 - Dining and customer experience have far more impact on the rating compared to
