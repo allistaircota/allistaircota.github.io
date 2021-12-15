@@ -1,6 +1,5 @@
 ---
-permalink: /
-#permalink: /portfolio/
+permalink: /portfolio/
 title: "Portfolio"
 ---
 

@@ -1,8 +1,6 @@
 ---
-permalink: /about/
-# permalink: /
-# redirect_from:
-#   - /about
+permalink: /
+#permalink: /about/
 title: "About"
 ---
 
