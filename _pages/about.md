@@ -12,4 +12,4 @@ I am proficient in Python, R, and MATLAB programming languages, data processing 
 
 Aside from my fascination with data science and engineering, my passions include music and Formula One. I’ve played piano ever since I was a child, participated in piano competitions and received the ATCL Performance Diploma in Piano from Trinity College London when I was in high school. Now I also experiment with synthesizers, organs and other keyboard sounds in my spare time. Music channels my inner creativity, discipline, and organization ability, something that I strive to channel in everything I do. Regarding Formula One, I rarely miss watching a race, and I find that this adrenaline-fuelled sport with its intersection of engineering and data science serves as a reminder of how leveraging data can help an individual, organization or community to stay ahead of the curve.
 
-[View My Portfolio]({% link _pages/portfolio.md %}){: .btn .btn--info .btn--center} [View My Resume]({% link ../assets/files/AllistairCota_Resume.pdf %}){: .btn .btn--primary .btn--center}
+[View My Portfolio]({% link _pages/portfolio.md %}){: .btn .btn--info .btn--center}
