@@ -31,3 +31,12 @@ A series of Jupyter notebooks where I predict the rating of a restaurant review 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/turtlebot.webp)
 
 A series of contests where our team programmed the TurtleBot robot using C++ and the ROS environment to perform autonomous mapping and localization, object identification via computer vision, and robot-human interaction for MIE443: Mechatronics Systems: Design and Integration at UofT (Winter, 2017).
+
+
+## Engineering Projects
+
+### Mechanical Engineering Portfolio
+
+[![](https://img.shields.io/badge/-View%20Engineering%20Portfolio-orange?logo=wix)](https://cotaallistair.wixsite.com/portfolio)
+
+Visit my [archived engineering portfolio](https://cotaallistair.wixsite.com/portfolio) to view my engineering projects.
