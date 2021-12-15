@@ -1,4 +1,5 @@
 ---
+permalink: /
 permalink: /portfolio/
 title: "Portfolio"
 ---
