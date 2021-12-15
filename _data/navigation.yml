@@ -4,6 +4,6 @@ main:
   - title: "Posts"
     url: /posts/
   - title: "Resume"
-    url: /AllistairCota_Resume.pdf
+    url: "https://allistaircota.github.io/assets/files/AllistairCota_Resume.pdf"
   - title: "About"
     url: /about/
