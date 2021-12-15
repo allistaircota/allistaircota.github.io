@@ -39,19 +39,20 @@ The NLP encoders that were explored included a Bag of Words (BoW) and TF-IDF vec
 For each vectorizer, the effect of stemming versus lemmatization was also evaluated. To keep
 memory size and run times manageable, each vectorizer was limited to encoding both
 unigram and bigram tokens, limiting the total number of tokens to 3,000. The candidate machine learning models that were evaluated included Linear Regression, Decision Tree Regression and XGBoost Regression. Grid search cross validation was used to select the best text vectorizer and model hyperparameter combination for each of the
-candidate models. The selection metric used was mean absolute error, but R2 values were
+candidate models. The selection metric used was mean absolute error, but R<sup>2</sup> values were
 also monitored. Table 1 shows the test set accuracy results for the various pipelines that were
 selected.
 
-| Model                   | Vectorizer           | Mean Absolute Error (Stars)| R^{2} |
-| :---------------------: |:--------------------:| :-------------------------:| :---: |
-| Ridge Regression        | TF-IDF with Stemming | 0.65                       | 0.62  |
-| XGBoost Regressor       | TF-IDF with Stemming | 0.66                       | 0.60  |
-| Decision Tree Regressor | TF-IDF with Stemming | 0.90                       | 0.21  |
+| Model                   | Vectorizer           | Mean Absolute Error (Stars)| R<sup>2</sup> |
+| :---------------------: |:--------------------:| :-------------------------:| :-----------: |
+| Ridge Regression        | TF-IDF with Stemming | 0.65                       | 0.62          |
+| XGBoost Regressor       | TF-IDF with Stemming | 0.66                       | 0.60          |
+| Decision Tree Regressor | TF-IDF with Stemming | 0.90                       | 0.21          |
+*Table 1: Regression model scores on the test set. Vectorizer and hyperparameters were selected via grid search cross validation.*
 
 As indicated by Table 1, the best performing pipeline comprised of a TF-IDF vectorizer with
-stemming, and a Linear Regression model with L2 regularization. This pipeline produced a
-mean absolute error of 0.65 stars and an R2 value of 0.62. Hence, our model can explain 62%
+stemming, and a Ridge Regression model. This pipeline produced a
+mean absolute error of 0.65 stars and an R<sup>2</sup> value of 0.62. Hence, our model can explain 62%
 of the variance in the ratings.
 
 ## Findings
