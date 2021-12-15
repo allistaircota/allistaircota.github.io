@@ -3,15 +3,15 @@ permalink: /portfolio/
 title: "Portfolio"
 
 toc: true
-toc_label: "My Table of Contents"
-toc_icon: "cog"
+toc_label: "Table of Contents"
 ---
 
 *Last updated: December 14, 2021*
 
 ## Data Science Projects
 
-### Rate My Restaurant - BrainStation Data Science Bootcamp Capstone Project
+### Rate My Restaurant
+***BrainStation Data Science Bootcamp Capstone Project***
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/allistaircota/rate_my_restaurant)
 
@@ -23,7 +23,8 @@ A series of Jupyter notebooks where I predict the rating of a restaurant review 
 
 ## Robotics Projects
 
-### MIE443: Mechatronics Systems: Design and Integration
+### TurtleBot Contests
+***MIE443 Mechatronics Systems: Design and Integration***
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/allistaircota/turtlebot_contests)
 
