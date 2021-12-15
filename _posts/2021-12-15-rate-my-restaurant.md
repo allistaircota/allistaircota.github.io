@@ -26,7 +26,7 @@ Figure 1 shows the distribution of the dependent variable, which is the rating o
 defined as the number of stars assigned by the reviewer. 64% of the reviews have a rating of
 greater than or equal to 4 stars, while 36% of the reviews have a rating of less than 4 stars.
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/star-rating.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/star_rating.png)
 *Figure 1: Distribution of restaurant review ratings*
 
 There were no obvious trends observed when plotting the distribution of ratings with each of
