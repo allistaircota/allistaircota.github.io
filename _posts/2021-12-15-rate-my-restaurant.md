@@ -1,6 +1,7 @@
 ---
 title: "Rate My Restaurant: Predicting Restaurant Ratings"
-#last_modified_at: 2021-12-09T16:20:02-05:00
+layout: single
+classes: wide
 categories:
   - Blog
 tags:
