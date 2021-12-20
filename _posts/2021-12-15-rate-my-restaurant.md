@@ -12,6 +12,8 @@ tags:
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/allistaircota/rate_my_restaurant)
 
+[![](https://img.shields.io/badge/Heroku-View%20on%20Heroku-blue?logo=heroku)](http://rate-my-restaurant-app.herokuapp.com/)
+
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/rate-my-restaurant-image.jpg)
 
 ## Problem Statement
@@ -65,7 +67,7 @@ of the variance in the ratings.
 ## Findings
 Figure 2 displays the top 20 positive and negative tokens based on coefficient values.
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/token.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/token-2.png)
 *Figure 2: Top 20 Positive and Negative Tokens by Regression Coefficient Value*
 
 To summarize, the key findings of the study are as follows:
