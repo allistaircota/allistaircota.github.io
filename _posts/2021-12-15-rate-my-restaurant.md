@@ -72,11 +72,9 @@ To summarize, the key findings of the study are as follows:
 - Dining and customer experience have far more impact on the rating compared to
 restaurant attributes, as indicated by comparing token coefficients to numeric and
 categorical feature coefficients.
-- Food taste has a noticeable impact on the rating, as descriptions like ‘bland’, ‘gross’,
-‘disgust’ and ‘tasteless’ fall within the top 20 negative coefficient values.
+- Food taste has a noticeable impact on the rating, as descriptions like ‘gross’, ‘bland’,
+and ‘tasteless’ fall within the top 20 negative coefficient values.
 - Staff deemed as ‘rude’ by the customer will lead to a noticeable decrease in rating.
-- Quick serving times are more likely to increase the rating, as indicated by the high
-positive coefficients for tokens like ‘quickly’ and ‘fast’.
 - For chain restaurants, the rating tends to decrease with increasing number of
 branches.
 
