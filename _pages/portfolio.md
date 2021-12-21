@@ -16,7 +16,7 @@ toc_label: "Table of Contents"
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/rate-my-restaurant-image.jpg)
 
-A series of Jupyter notebooks where I predict the rating of a restaurant review given its business atrributes and review text. This would help aspiring restaurant owners understand the characteristics required to achieve a good restaurant rating. The text vectorizers that I evaluated included Bag-of-Words and TF-IDF, and the machine learning models included Linear, Ridge, Lasso, Decision Tree, and XGBoost Regression. The pipeline with tuned model hyperparameters producing the lowest mean absolute error was selected using GridSearchCV. This project served as my capstone for the Data Science Bootcamp at BrainStation (September 2021 cohort).
+A series of Jupyter notebooks where I predict the rating of a restaurant review given its business atrributes and review text. This would help aspiring restaurant owners understand the characteristics required to achieve a good restaurant rating. The text vectorizers that I evaluated included Bag-of-Words and TF-IDF, and the machine learning models included Linear, Ridge, Lasso, Decision Tree, and XGBoost Regression. The pipeline with tuned model hyperparameters producing the lowest mean absolute error was selected using GridSearchCV. This project served as my capstone for the Data Science Bootcamp at BrainStation (September 2021 cohort). The final model was deployed as a Flask web app hosted on Heroku.
 
 
 
