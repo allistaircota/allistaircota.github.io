@@ -83,6 +83,7 @@ branches.
 ## Web Application
 The final model was deployed as a Flask web app [hosted on Heroku](http://rate-my-restaurant-app.herokuapp.com). Upon landing at the home page, the user is prompted to complete a form, where the user enters the restaurant location in text field, answers simple yes or no questions about available amenities using drop down menu, picks the best categories for this restaurant, and enters the review text into the text field. After hitting the predict button, the app then displays the predicted rating for the restaurant.
 
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/flask_app.gif)
 
 ## Conclusion
 In this study, we have trained a model that can predict the rating of a restaurant review with a
