@@ -15,7 +15,7 @@ tags:
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/rate-my-restaurant-image.jpg)
 
 ## Problem Statement
-The goal of this project is to help aspiring restaurant owners understand the ratings their planned restaurant might get on a review website, given the amenities they plan to include, and feedback received from soft openings. By using a combination of numerical, categorical, and text data, we utilize Natural Language Processing (NLP) and machine learning techniques to build a regression model that can predict the rating of a restaurant assigned by a customer. This will give restauranteurs an advanced awareness of customers’ sentiment towards the restaurants, allowing them to make any changes prior to opening to avoid receiving low ratings once in operation.
+The goal of this project is to help aspiring restaurant owners understand the ratings their planned restaurant might get on a review website, given the amenities they plan to include, and feedback received from soft openings. By using a combination of numerical, categorical, and text data, I utilized Natural Language Processing (NLP) and machine learning techniques to build a regression model that can predict the rating of a restaurant assigned by a customer. This will give restauranteurs an advanced awareness of customers’ sentiment towards the restaurants, allowing them to make any changes prior to opening to avoid receiving low ratings once in operation.
 
 ## Background
 The restaurant industry in the United States generated $833.1 billion in revenue in 2018 and was projected to reach $863 billion in 2019 [1]. Restaurants reviews and ratings on popular review websites are important factors in attracting new customers. Yelp is one of the most popular review websites, including over 135 million restaurant and business reviews and over 90 million users visiting the website per month. A study found that a one star increase in a Yelp rating leads to a 5% - 9% increase in revenue for a restaurant [2]. This underlines the financial importance of Yelp ratings on restaurants.
@@ -50,9 +50,9 @@ selected.
 
 | Model                   | Vectorizer           | Mean Absolute Error (Stars)| R<sup>2</sup> |
 | :---------------------: |:--------------------:| :-------------------------:| :-----------: |
-| Ridge Regression        | TF-IDF with Stemming | 0.65                       | 0.62          |
+| Ridge Regression        | TF-IDF with Stemming | 0.65                       | 0.61          |
 | XGBoost Regressor       | TF-IDF with Stemming | 0.66                       | 0.60          |
-| Decision Tree Regressor | TF-IDF with Stemming | 0.90                       | 0.21          |
+| Decision Tree Regressor | TF-IDF with Stemming | 0.89                       | 0.25          |
 
 *Table 1: Regression model scores on the test set. Vectorizer and hyperparameters were selected via grid search cross validation.*
 
@@ -65,7 +65,7 @@ of the variance in the ratings.
 ## Findings
 Figure 2 displays the top 20 positive and negative tokens based on coefficient values.
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/token-2.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/token.png)
 *Figure 2: Top 20 Positive and Negative Tokens by Regression Coefficient Value*
 
 To summarize, the key findings of the study are as follows:
