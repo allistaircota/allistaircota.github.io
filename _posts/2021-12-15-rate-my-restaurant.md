@@ -85,6 +85,8 @@ The final model was deployed as a Flask web app [hosted on Heroku](http://rate-m
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/flask_app.gif)
 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/flask_app.gif" width="500" />
+
 ## Conclusion
 In this study, we have trained a model that can predict the rating of a restaurant review with a
 mean absolute error of 0.65 stars. Compared to simply predicted the average test set rating
