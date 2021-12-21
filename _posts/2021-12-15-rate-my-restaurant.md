@@ -91,7 +91,7 @@ The final model was deployed as a Flask web app [hosted on Heroku](http://rate-m
 In this study, we have trained a model that can predict the rating of a restaurant review with a
 mean absolute error of 0.65 stars. Compared to simply predicted the average test set rating
 for all predictions, we have improved the mean absolute error by 0.51 stars (32% reduction).
-The model can explain 62% of the variance in ratings. We have also identified the features
+The model can explain 61% of the variance in ratings. We have also identified the features
 that have the biggest influence on rating score.
 
 ## Next steps
