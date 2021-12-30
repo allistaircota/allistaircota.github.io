@@ -14,7 +14,7 @@ tags:
 
 [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/allistaircota/rate_my_restaurant) [![](https://img.shields.io/badge/Heroku-View%20on%20Heroku-blue?logo=heroku)](http://rate-my-restaurant-app.herokuapp.com/)
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/rate-my-restaurant-image.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/rate-my-restaurant-image-2.jpg)
 
 ## Problem Statement
 The goal of this project is to help aspiring restaurant owners understand the ratings their planned restaurant might get on a review website, given the amenities they plan to include, and feedback received from soft openings. By using a combination of numerical, categorical, and text data, I utilized Natural Language Processing (NLP) and machine learning techniques to build a regression model that can predict the rating of a restaurant assigned by a customer. This will give restauranteurs an advanced awareness of customers’ sentiment towards the restaurants, allowing them to make any changes prior to opening to avoid receiving low ratings once in operation.

@@ -14,7 +14,7 @@ toc_label: "Table of Contents"
 
 [![](https://img.shields.io/badge/Blog-Read%20Article-blue?logo=blogger)](../blog/rate-my-restaurant/) [![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/allistaircota/rate_my_restaurant) [![](https://img.shields.io/badge/Heroku-View%20on%20Heroku-blue?logo=heroku)](http://rate-my-restaurant-app.herokuapp.com/)
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/rate-my-restaurant-image.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/rate-my-restaurant-image-2.jpg)
 
 A series of Jupyter notebooks where I predict the rating of a restaurant review given its business atrributes and review text. This would help aspiring restaurant owners understand the characteristics required to achieve a good restaurant rating. The text vectorizers that I evaluated included Bag-of-Words and TF-IDF, and the machine learning models included Linear, Ridge, Lasso, Decision Tree, and XGBoost Regression. The pipeline with tuned model hyperparameters producing the lowest mean absolute error was selected using GridSearchCV. This project served as my capstone for the Data Science Bootcamp at BrainStation (September 2021 cohort). The final model was deployed as a Flask web app hosted on Heroku.
 
